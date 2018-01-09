@@ -36,20 +36,16 @@ body {
 }
 
 
-
-
-
-
-.logo-box {
+.header__logo-box {
     position: absolute;
     top: 40px;
     left: 40px;
 }
-.logo {
+.header__logo {
     height: 35px;
 }
 
-.text-box {
+.header__text-box {
     position: absolute;
     text-align: center;
     top: 40%;
@@ -63,7 +59,7 @@ body {
     backface-visibility: hidden;
 }
 
-.heading-primary-main {
+.heading-primary--main {
     display: block;
     font-size: 60px;
     font-weight: 400;
@@ -74,7 +70,7 @@ body {
     
 }
 
-.heading-primary-sub {
+.heading-primary--sub {
     display: block;
     font-size: 30px;
     font-weight: 400;
@@ -124,7 +120,7 @@ body {
     position: relative;
 }
 
-.btn-default {
+.btn--default {
     background-color: #fff;
 /**
     position: absolute;
@@ -152,10 +148,10 @@ body {
     transition: all .4s;
 }
 
-.btn-default::after {
+.btn--default::after {
     background-color: white;
 }
-.btn-default:hover::after {
+.btn--default:hover::after {
     transform: scale(2);
     opacity: 0;
 }
